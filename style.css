@@ -101,6 +101,15 @@ body{
           display: grid;
           padding-block: var(--spacing-150);
           border-radius: 8px;
+          text-decoration: none;
+          transition: .2s ease-in-out;
+
+          &:hover,
+          &:focus{
+            background: var(--green);
+            color: var(--gray-900);  
+            outline: none; 
+          }
         }
       }
     }
