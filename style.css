@@ -93,7 +93,7 @@ body{
       li{
         list-style: none;
         &:not(:last-child){
-          padding-bottom: var(--spacing-200);
+          margin-bottom: var(--spacing-200);
         }
         a{
           width: 100%;
